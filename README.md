@@ -1,2 +1,2 @@
 # forex
-test jenkins
+test travis
