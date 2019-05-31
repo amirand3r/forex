@@ -2,5 +2,8 @@ language: java
 sudo: false
 script: mvn clean verify
 notifications:
-  email:
+  recipients:
     - angel.miranda@gmail.com
+    
+    on_success: always # default: change
+    on_failure: always # default: always
